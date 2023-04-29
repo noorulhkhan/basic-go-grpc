@@ -18,6 +18,7 @@ mkdir client server proto
 ```
 
 2. Installing the gRPC Go plugin
+- Download and install [protoc](https://github.com/protocolbuffers/protobuf/releases) tool which will use following gRPC Go plugin.
 
 ```bash
 go install google.golang.org/protobuf/cmd/protoc-gen-go@v1.28
@@ -25,8 +26,6 @@ go install google.golang.org/protobuf/cmd/protoc-gen-go@v1.28
 go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@v1.2
 
 export PATH="$PATH:$(go env GOPATH)/bin"
-
-- Download [protoc](https://github.com/protocolbuffers/protobuf/releases) tool which will use above gRPC Go plugin.
 
 ```
 
