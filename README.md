@@ -67,11 +67,13 @@ go mod tidy
 2. Run the server
 
 ```bash
-go run server/main.go
+cd server/
+go run .
 ```
 
 3. Run the client
 
 ```bash
-go run client/main.go
+cd client/
+go run .
 ```
